@@ -1,0 +1,163 @@
+.portfolio::after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.dev-projects > div:first-of-type {
+	padding-bottom: 40px;
+}
+
+.dev-projects .page-title::after {
+	margin: 10px 0 0;
+}
+
+.portfolio .page-title h3 {
+	text-align: left;
+}
+
+.portfolio .proj-desc {
+	display: block;
+	text-transform: initial;
+	font-size: 16px;
+}
+
+.projects {
+	box-sizing: border-box;
+	margin: 0;
+	width: 100%;
+	display: block;
+}
+
+.projects li {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	height: auto;
+	margin-bottom: 15px;
+	box-shadow: 0 0 20px 0 #efefef;
+}
+
+.projects li:hover {
+	box-shadow: 0 0 20px 0 #c4c4c4;
+}
+
+.project-piece {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.project-piece img {
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.close-overlay {
+	border: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
+}
+
+button.close-overlay.hidden {
+  display: none;
+}
+
+.project-title {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-transform: uppercase;
+}
+
+.projects .overlay {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 0;
+}
+
+.projects .overlay a.project-title {
+  left: 0;
+  right: 0;
+  bottom: 50%;
+  margin: 0 auto -30px auto;
+}
+
+.projects .overlay a.project-title p {
+	font-size: 30px;
+}
+
+.project-title:hover {
+	color: #919191;
+}
+
+.projects .project-piece.hover .overlay {
+  height: 100%;
+}
+
+@media screen and (min-width: 700px) {
+	.projects li {
+		width: 48.60%;
+		margin-right: 2%;
+		display: inline-block;
+		height: 50%;
+	}
+
+	.projects li:nth-child(even) {
+		margin-right: 0;
+	}
+}
+
+@media screen and (min-width: 1020px) {
+}
+
+@media screen and (min-width: 1200px) {
+	.dev-projects > div:first-of-type {
+		padding-bottom: 60px;
+	}
+	
+	.projects li {
+		width: 31.60%;
+		margin-right: 2%;
+	}
+
+	.projects li:nth-child(even) {
+		margin-right: 2%;
+	}
+
+	.projects li:nth-child(3n) {
+		margin-right: 0;
+	}
+}

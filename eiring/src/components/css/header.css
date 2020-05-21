@@ -1,0 +1,294 @@
+.home {
+	background: #000 url('/assets/work-office.jpg') no-repeat center;
+}
+
+.bgimage {
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.white-overlay {
+	background: rgba(0, 0, 0, 0.8);
+	height: 100vh;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+	background-color: #000;
+}
+
+.container .header div {
+	width: 100%;
+	height: auto;
+	background-color: #000;
+	box-sizing: border-box;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header h1 {
+	width: 69%;
+	display: inline-block;
+	font-size: 1.5625rem; /* 25px */
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	box-sizing: border-box;
+}
+
+.header h1 a {
+	color: #fff;
+}
+
+.header h1 a:hover {
+	color: #fff3f2;
+	border-bottom: 2px solid #fff3f2;
+}
+
+.menu {
+	color: #fff;
+	display: block;
+	width: 30%;
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: right;
+	font-size: 1.5rem; /* 24px */
+	line-height: 1.3;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.menu:hover {
+	color: #fff3f2;
+}
+
+nav {
+	height: 100%;
+	width: 0;
+	background-color: #000;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+nav.open {
+	width: 260px;
+}
+
+nav.closed {
+	width: 0;
+}
+
+nav ul a {
+	display: block;
+	border-bottom: 1px solid #dbd7d7;
+	font-size: 1.375rem; /* 22px */
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	transition: 0.3s;
+	width: 90%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+nav ul a:hover {
+	background-color: #383737;
+	color: #c4bfbf;
+}
+
+.closeMenu p {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 50px;
+	padding: 10px 20px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.welcome-message {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+	width: 90%;
+	color: #fff;
+}
+
+.welcome-message .btn-outlined {
+	border-color: #fff;
+	color: #fff;
+}
+
+.subject {
+  font-size: 35px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	letter-spacing: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+	-webkit-animation: type 4s steps(60, end);
+	-moz-animation: type 4s steps(60, end);
+	-o-animation: type 4s steps(60, end);
+  animation: type 4s steps(60, end);
+}
+
+@-webkit-keyframes type {
+  from {
+		width: 0;
+	}
+  to {
+		width:100%;
+	}
+}
+
+@-moz-keyframes type {
+  from {
+		width: 0;
+	}
+  to {
+		width:100%;
+	}
+}
+
+@-o-keyframes type {
+  from {
+		width: 0;
+	}
+  to {
+		width:100%;
+	}
+}
+
+@keyframes type {
+  from {
+		width: 0;
+	}
+  to {
+		width:100%;
+	}
+}
+
+.blinking {
+	border-right: 2px solid #fff;
+	-webkit-animation: blink 1s step-end 10;
+	-moz-animation: blink 1s step-end 10;
+	-o-animation: blink 1s step-end 10;
+	animation: blink 1s step-end 10;
+}
+
+@-webkit-keyframes blink {
+	from, to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: #fff;
+	}
+}
+
+@-moz-keyframes blink {
+	from, to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: #fff;
+	}
+}
+
+@-o-keyframes blink {
+	from, to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: #fff;
+	}
+}
+
+@keyframes blink {
+	from, to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: #fff;
+	}
+}
+
+.subject + p {
+  font-size: 1.25rem; /* 20px */
+	z-index: 2;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	white-space: normal;
+}
+
+.yes-btn:hover {
+	background-color: #fff3f2;
+	border-color: #fff3f2;
+  color: #000;
+}
+
+@media screen and (max-width: 470px) {
+	.header h1 {
+		width: 68%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.header{
+		padding: 2% 2.5%;
+	}
+}
+
+@media screen and (min-width: 910px) {
+	.header h1 {
+		font-size: 1.875rem; /* 30px */
+	}
+
+	.menu {
+		font-size: 1.8125rem; /* 29px */
+	}
+
+	.home .welcome-message {
+		text-align: left;
+		width: 50%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-80%, -50%);
+		transform: translate(-80%, -50%);
+	}
+
+	.subject {
+		font-size: 2.8125rem; /* 45px */
+	}
+}
+
+@media screen and (min-width: 1020px) {
+	.container .header {
+		padding: 2% 7.5%;
+	}
+
+	.subject {
+		font-size: 4.375rem; /* 70px */
+	}
+
+	.subject + p {
+		width: 60%;
+	}
+}

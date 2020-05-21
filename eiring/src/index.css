@@ -1,0 +1,265 @@
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
+html {
+  font-family: sans-serif; /* 1 */
+  line-height: 1.15; /* 2 */
+  -ms-text-size-adjust: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 3 */
+}
+
+body,p,h1,button,input,select,textarea,section,ul {
+  margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+article,footer,header,nav,section,main {
+  display: block;
+}
+
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+	text-decoration: none;
+  color: #000;
+}
+
+a:active,a:hover {
+  outline-width: 0;
+  color: #000;
+}
+
+b,strong {
+  font-weight: inherit;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+img {
+  border-style: none;
+}
+
+button,input { /* 1 */
+  overflow: visible;
+}
+
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+[hidden] {
+  display: none;
+}
+
+/* GENERAL STYLES */
+body, h1, h2, h3, h4, p, span {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+  width: 100%;
+	font-family: 'Raleway', sans-serif;
+  line-height: 1.2;
+  font-size: 100%;
+  background-color: #fff;
+	color: #000;
+}
+
+p {
+	font-size: 1.125rem; /* 18px */
+	line-height: 1.3;
+	margin-bottom: 10px;
+}
+
+.group {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wide-container {
+	padding: 60px 20px;
+}
+
+/* PAGE TITLE */
+.page-title {
+	font-size: 32px;
+	padding-bottom: 30px;
+}
+
+.page-title h2, .page-title h3 {
+	margin: 0;
+}
+
+.page-title h3 {
+	font-size: 28px;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+
+.page-title, .certificate h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.page-title::after,
+.certificate h3::after {
+	display: block;
+	content: ' ';
+	width: 60px;
+	height: 4px;
+	background-color: #000;
+	text-align: center;
+	margin: 10px auto 0;
+}
+
+/* BUTTONS */
+.btn-outlined {
+  background: transparent;
+  padding: 12px 17px;
+	margin-top: 50px;
+  border: 1px solid #000;
+  font-size: 1.125rem; /* 18px */
+	font-family: 'Pathway Gothic One',sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all ease 0.9s;
+  -moz-transition: all ease 0.9s;
+  transition: all ease 0.9s;
+	color: #000;
+}
+
+.btn-outlined:hover {
+	background-color: #000;
+	border-color: #000;
+  color: #fff;
+}
+
+/* FOOTER CONTACT */
+.contact {
+	background-color: #fff3f2;
+	box-sizing: border-box;
+}
+
+.contact div {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.contact p {
+	font-size: 1.25rem; /* 26px */
+}
+
+.contact p:last-of-type {
+	margin-bottom: 30px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 312px) {
+	.btn-outlined {
+		letter-spacing: 2px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.contact {
+		text-align: center;
+	}
+
+	.wide-container {
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+	}
+}
+
+@media screen and (min-width: 910px) {
+	.wide-container {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.contact div.typeform-widget {
+		width: 700px;
+	}
+}
+
+@media screen and (min-width: 1020px) {
+	.page-title {
+		font-size: 40px;
+		padding-bottom: 50px;
+	}
+
+	.page-title h3 {
+		font-size: 36px;
+	}
+
+	.wide-container {
+		padding-left: 7.5%;
+		padding-right: 7.5%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.wide-container {
+		padding-top: 95px;
+		padding-bottom: 95px;
+	}
+}

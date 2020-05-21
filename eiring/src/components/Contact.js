@@ -32,7 +32,10 @@ const Contact = () => {
 
         <aside className="about">
           <div>
-            <img src="assets/eiringonzales.jpg" alt="Eirin Gonzales" />
+            <img
+              src="https://theproactivedev.github.io/eiringonzales/assets/eiringonzales.jpg"
+              alt="Eirin Gonzales"
+            />
           </div>
           <div>
             <p>

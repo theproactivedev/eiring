@@ -10,30 +10,91 @@ const Header = () => {
     <section className="container">
       <section className="header">
         <div>
-          <h1><Link to="/">Eirin Gonzales</Link></h1>
-          <span className="menu" onClick={() => { setMenuClassName("navigation open"); }}>Menu <i className="fa fa-bars"></i></span>
+          <h1>
+            <Link to="/">Eirin Gonzales</Link>
+          </h1>
+          <span
+            className="menu"
+            onClick={() => {
+              setMenuClassName("navigation open");
+            }}
+          >
+            Menu <i className="fa fa-bars"></i>
+          </span>
         </div>
 
         <nav className={menuClassName}>
-          <span className="closeMenu" onClick={() => { setMenuClassName("navigation closed"); }}><p>&times;</p></span>
+          <span
+            className="closeMenu"
+            onClick={() => {
+              setMenuClassName("navigation closed");
+            }}
+          >
+            <p>&times;</p>
+          </span>
           <ul role="navigation">
-            <li onClick={() => { setMenuClassName("navigation closed"); }}><Link to="/" className="relative">Services</Link></li>
-            <li><a href="/assets/eiringonzales_resume.pdf">Resume</a></li>
-            <li onClick={() => { setMenuClassName("navigation closed"); }}><Link to="/portfolio" className="relative">Portfolio</Link></li>
-            <li><a href="https://theproactivedeveloper.wordpress.com/" target="_blank" rel="noopener noreferrer">Blog</a></li>
-            <li onClick={() => { setMenuClassName("navigation closed"); }}><Link to="/contact" className="relative">Contact</Link></li>
+            <li
+              onClick={() => {
+                setMenuClassName("navigation closed");
+              }}
+            >
+              <Link to="/" className="relative">
+                Services
+              </Link>
+            </li>
+            <li>
+              <a href="https://theproactivedev.github.io/eiringonzales/assets/eiringonzales_resume.pdf">
+                Resume
+              </a>
+            </li>
+            <li
+              onClick={() => {
+                setMenuClassName("navigation closed");
+              }}
+            >
+              <Link to="/portfolio" className="relative">
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <a
+                href="https://theproactivedeveloper.wordpress.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Blog
+              </a>
+            </li>
+            <li
+              onClick={() => {
+                setMenuClassName("navigation closed");
+              }}
+            >
+              <Link to="/contact" className="relative">
+                Contact
+              </Link>
+            </li>
           </ul>
         </nav>
-        {location.pathname === '/' &&
+        {location.pathname === "/" && (
           <section className="welcome-message group">
-            <p className="subject">do you need a website? <span className="blinking"> </span></p>
-            <p className="sub">Grab your <strong>free consultation</strong> and <strong>price quote</strong> now!</p>
-          <p><Link to="/contact" className="btn-outlined yes-btn">Yes! I need a website. &raquo;</Link></p>
+            <p className="subject">
+              do you need a website? <span className="blinking"> </span>
+            </p>
+            <p className="sub">
+              Grab your <strong>free consultation</strong> and{" "}
+              <strong>price quote</strong> now!
+            </p>
+            <p>
+              <Link to="/contact" className="btn-outlined yes-btn">
+                Yes! I need a website. &raquo;
+              </Link>
+            </p>
           </section>
-        }
+        )}
       </section>
     </section>
-  )
+  );
 
   return (
     <header>

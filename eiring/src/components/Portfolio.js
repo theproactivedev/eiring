@@ -86,13 +86,23 @@ const frontend_proj = [
 
 const Portfolio = () => {
   const backendProjects = backend_proj.map((proj, index) => {
+    const imgSrc = "https://theproactivedev.github.io/eiringonzales/" + proj.image;
     return (
       <li className="skills-module" key={`back-skills-module-${index}`}>
         <div className="project-piece">
-          <img src={proj.image} alt="" />
+          <img src={imgSrc} alt="" />
           <div className="overlay">
-            <a className="project-title" href={proj.source} target="_blank" rel="noopener noreferrer"><p>{proj.title}</p></a>
-            <button className="close-overlay hidden"><i className="fa fa-times" aria-hidden="true"></i></button>
+            <a
+              className="project-title"
+              href={proj.source}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>{proj.title}</p>
+            </a>
+            <button className="close-overlay hidden">
+              <i className="fa fa-times" aria-hidden="true"></i>
+            </button>
           </div>
         </div>
       </li>
@@ -100,10 +110,11 @@ const Portfolio = () => {
   })
 
   const frontEndProjects = frontend_proj.map((proj, index) => {
+    const imgSrc = 'https://theproactivedev.github.io/eiringonzales/' + proj.image;
     return (
       <li className="skills-module" key={`front-skills-module-${index}`}>
         <div className="project-piece">
-          <img src={proj.image} alt="" />
+          <img src={imgSrc} alt="" />
           <div className="overlay">
             <a className="project-title" href={proj.source} target="_blank" rel="noopener noreferrer"><p>{proj.title}</p></a>
             <button className="close-overlay hidden"><i className="fa fa-times" aria-hidden="true"></i></button>

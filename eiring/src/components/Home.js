@@ -57,11 +57,11 @@ const Home = () => {
 
       <section className="certificates wide-container">
         <Fade top>
-        <div className="page-title">
-          <Fade top>
-          <h3>Free Code Camp Certificates</h3>
-          </Fade>
-        </div>
+          <div className="page-title">
+            <Fade top>
+              <h3>Free Code Camp Certificates</h3>
+            </Fade>
+          </div>
         </Fade>
         <div className="certificate">
           <div className="skills-module">
@@ -71,7 +71,7 @@ const Home = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="assets/portfolio/freecodecamp-certificate.png"
+                src="https://theproactivedev.github.io/eiringonzales/assets/portfolio/freecodecamp-certificate.png"
                 alt="Free Code Camp Front End Certificate"
               />
             </a>
@@ -83,7 +83,7 @@ const Home = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="assets/portfolio/back_end_dev.jpg"
+                src="https://theproactivedev.github.io/eiringonzales/assets/portfolio/back_end_dev.jpg"
                 alt="Free Code Camp Back End Certificate"
               />
             </a>

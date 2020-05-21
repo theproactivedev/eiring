@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/eiring/static/css/main.89adfc5a.chunk.css",
+    "main.js": "/eiring/static/js/main.7b3d62a4.chunk.js",
+    "main.js.map": "/eiring/static/js/main.7b3d62a4.chunk.js.map",
+    "runtime-main.js": "/eiring/static/js/runtime-main.ebe75c40.js",
+    "runtime-main.js.map": "/eiring/static/js/runtime-main.ebe75c40.js.map",
+    "static/js/2.65c14bab.chunk.js": "/eiring/static/js/2.65c14bab.chunk.js",
+    "static/js/2.65c14bab.chunk.js.map": "/eiring/static/js/2.65c14bab.chunk.js.map",
+    "index.html": "/eiring/index.html",
+    "precache-manifest.e4a690553a52f096f7ae5d80e0c8df51.js": "/eiring/precache-manifest.e4a690553a52f096f7ae5d80e0c8df51.js",
+    "service-worker.js": "/eiring/service-worker.js",
+    "static/css/main.89adfc5a.chunk.css.map": "/eiring/static/css/main.89adfc5a.chunk.css.map",
+    "static/js/2.65c14bab.chunk.js.LICENSE.txt": "/eiring/static/js/2.65c14bab.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebe75c40.js",
+    "static/js/2.65c14bab.chunk.js",
+    "static/css/main.89adfc5a.chunk.css",
+    "static/js/main.7b3d62a4.chunk.js"
+  ]
+}

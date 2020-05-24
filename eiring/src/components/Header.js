@@ -106,7 +106,7 @@ const Header = () => {
           </section>
         </section>
       }
-      {location.pathname !== '/' &&
+      {!isHome &&
         <>{headerContent}</>
       }
     </header>

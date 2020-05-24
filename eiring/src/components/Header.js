@@ -76,7 +76,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        {location.pathname === "/" && (
+        {location.pathname === "/eiringonzales" && (
           <section className="welcome-message group">
             <p className="subject">
               do you need a website? <span className="blinking"> </span>
@@ -98,7 +98,7 @@ const Header = () => {
 
   return (
     <header>
-      {location.pathname === '/' &&
+      {location.pathname === '/eiringonzales' &&
         <section className="bgimage home">
           <section className="white-overlay">
             {headerContent}

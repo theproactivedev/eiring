@@ -5,6 +5,7 @@ import './css/header.css';
 const Header = () => {
   const location = useLocation();
   const [menuClassName, setMenuClassName] = useState("navigation closed");
+  const isHome = location.pathname === "/eiringonzales" || location.pathname === "/eiringonzales/";
 
   const headerContent = (
     <section className="container">
@@ -76,7 +77,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        {location.pathname === "/eiringonzales" && (
+        {isHome && (
           <section className="welcome-message group">
             <p className="subject">
               do you need a website? <span className="blinking"> </span>
@@ -98,7 +99,7 @@ const Header = () => {
 
   return (
     <header>
-      {location.pathname === '/eiringonzales' &&
+      {isHome &&
         <section className="bgimage home">
           <section className="white-overlay">
             {headerContent}

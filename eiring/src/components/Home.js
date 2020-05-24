@@ -95,7 +95,7 @@ const Home = () => {
         <div className="work-field">
           <p>Do you want to see my previous work?</p>
           <p>
-            <Link to="/portfolio" className="clickHere btn-outlined">
+            <Link to="/eiringonzales/portfolio" className="clickHere btn-outlined">
               Click here
             </Link>
           </p>
@@ -122,7 +122,7 @@ const Home = () => {
           <Link
             role="button"
             title="Contact Eirin Gonzales"
-            to="/contact"
+            to="/eiringonzales/contact"
             className="btn-outlined"
           >
             Contact me here

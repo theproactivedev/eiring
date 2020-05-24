@@ -52,7 +52,7 @@ const Header = () => {
                 setMenuClassName("navigation closed");
               }}
             >
-              <Link to="/portfolio" className="relative">
+              <Link to="/eiringonzales/portfolio" className="relative">
                 Portfolio
               </Link>
             </li>
@@ -70,7 +70,7 @@ const Header = () => {
                 setMenuClassName("navigation closed");
               }}
             >
-              <Link to="/contact" className="relative">
+              <Link to="/eiringonzales/contact" className="relative">
                 Contact
               </Link>
             </li>
@@ -86,7 +86,7 @@ const Header = () => {
               <strong>price quote</strong> now!
             </p>
             <p>
-              <Link to="/contact" className="btn-outlined yes-btn">
+              <Link to="/eiringonzales/contact" className="btn-outlined yes-btn">
                 Yes! I need a website. &raquo;
               </Link>
             </p>

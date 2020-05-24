@@ -7,9 +7,9 @@ import Contact from './Contact';
 const Content = () => {
   return (
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/portfolio" component={Portfolio} />
-      <Route path="/contact" component={Contact} />
+      <Route exact path="/eiringonzales" component={Home} />
+      <Route path="/eiringonzales/portfolio" component={Portfolio} />
+      <Route path="/eiringonzales/contact" component={Contact} />
     </Switch>
   );
 }

@@ -9,8 +9,8 @@ const Footer = () => {
         <div>
           <h4>Menu</h4>
           <p><Link to="/eiringonzales">Go back to Home</Link></p>
-          <p><Link to="/portfolio">Look at my Portfolio</Link></p>
-          <p><Link to="/contact">Contact Me Here</Link></p>
+          <p><Link to="/eiringonzales/portfolio">Look at my Portfolio</Link></p>
+          <p><Link to="/eiringonzales/contact">Contact Me Here</Link></p>
           <p>Check out <a href="https://www.freecodecamp.org/">Free Code Camp</a> if you want to learn about web development.</p>
         </div>
         <div>

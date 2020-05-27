@@ -10,6 +10,7 @@ const Content = () => {
       <Route exact path="/eiringonzales" component={Home} />
       <Route path="/eiringonzales/portfolio" component={Portfolio} />
       <Route path="/eiringonzales/contact" component={Contact} />
+      <Route path="/*" component={Home} />
     </Switch>
   );
 }

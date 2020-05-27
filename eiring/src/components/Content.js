@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import Home from './Home';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
@@ -10,7 +10,7 @@ const Content = () => {
       <Route exact path="/eiringonzales" component={Home} />
       <Route path="/eiringonzales/portfolio" component={Portfolio} />
       <Route path="/eiringonzales/contact" component={Contact} />
-      <Route path="/eiringonzales/*" component={Home} />
+      <Route render={() => <Redirect to="/eiringonzales" />} />
     </Switch>
   );
 }

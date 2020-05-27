@@ -123,7 +123,7 @@ button.close-overlay.hidden {
 	color: #919191;
 }
 
-.projects .project-piece.hover .overlay {
+.projects .project-piece:hover .overlay {
   height: 100%;
 }
 

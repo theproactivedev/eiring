@@ -14,11 +14,11 @@ const backend_proj = [
     source: "https://eg-fcc-resto.herokuapp.com/",
     title: "Resto Coordination App"
   },
-  {
-    image: "assets/portfolio/fccstocks.png",
-    source: "https://fcc-stocks.herokuapp.com/",
-    title: "Watch Stocks"
-  },
+  // {
+  //   image: "assets/portfolio/fccstocks.png",
+  //   source: "https://fcc-stocks.herokuapp.com/",
+  //   title: "Watch Stocks"
+  // },
   {
     image: "assets/portfolio/sharebook.png",
     source: "https://eg-fcc-shareabook.herokuapp.com/",
@@ -52,11 +52,11 @@ const frontend_proj = [
   // 	source: "https://codepen.io/theproactivedev/full/GWLjpp/",
   // 	title: "Show the Local Weather"
   // },
-  {
-    image: "assets/portfolio/wikipedia.png",
-    source: "https://codepen.io/theproactivedev/full/ZKEMOz/",
-    title: "Wikipedia Viewer"
-  },
+  // {
+  //   image: "assets/portfolio/wikipedia.png",
+  //   source: "https://codepen.io/theproactivedev/full/ZKEMOz/",
+  //   title: "Wikipedia Viewer"
+  // },
   {
     image: "assets/portfolio/twitch.png",
     source: "https://codepen.io/theproactivedev/full/LyGVyW/",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/eiringonzales/static/css/main.4714500d.chunk.css",
-    "main.js": "/eiringonzales/static/js/main.b99a0ed5.chunk.js",
-    "main.js.map": "/eiringonzales/static/js/main.b99a0ed5.chunk.js.map",
+    "main.js": "/eiringonzales/static/js/main.f3f02416.chunk.js",
+    "main.js.map": "/eiringonzales/static/js/main.f3f02416.chunk.js.map",
     "runtime-main.js": "/eiringonzales/static/js/runtime-main.c95b8402.js",
     "runtime-main.js.map": "/eiringonzales/static/js/runtime-main.c95b8402.js.map",
     "static/js/2.83cbbab4.chunk.js": "/eiringonzales/static/js/2.83cbbab4.chunk.js",
     "static/js/2.83cbbab4.chunk.js.map": "/eiringonzales/static/js/2.83cbbab4.chunk.js.map",
     "index.html": "/eiringonzales/index.html",
-    "precache-manifest.7d0fd9761631488b3fa9869a06936d04.js": "/eiringonzales/precache-manifest.7d0fd9761631488b3fa9869a06936d04.js",
+    "precache-manifest.691ffe0cc163c8a0a09362551916a942.js": "/eiringonzales/precache-manifest.691ffe0cc163c8a0a09362551916a942.js",
     "service-worker.js": "/eiringonzales/service-worker.js",
     "static/css/main.4714500d.chunk.css.map": "/eiringonzales/static/css/main.4714500d.chunk.css.map",
     "static/js/2.83cbbab4.chunk.js.LICENSE.txt": "/eiringonzales/static/js/2.83cbbab4.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c95b8402.js",
     "static/js/2.83cbbab4.chunk.js",
     "static/css/main.4714500d.chunk.css",
-    "static/js/main.b99a0ed5.chunk.js"
+    "static/js/main.f3f02416.chunk.js"
   ]
 }

@@ -127,6 +127,38 @@ button.close-overlay.hidden {
   height: 100%;
 }
 
+.alert-msg {
+	border: 1px solid #721c24;
+	background-color: #f8d7da;
+	color: #721c24;
+	padding: 1.25rem;
+	margin-bottom: 1rem;
+	position: relative;
+}
+
+.alert-msg p {
+	padding-right: 1rem;
+	font-size: 1rem;
+	margin: 0;
+}
+
+.alert-msg span {
+	font-size: 2rem;
+	position: absolute;
+	top: 0;
+	right: 1.25rem;
+	padding-left: 0.5rem;
+	cursor: pointer;
+}
+
+.alert-msg._show_ {
+	display: block;
+}
+
+.alert-msg._hidden_ {
+	display: none;
+}
+
 @media screen and (min-width: 700px) {
 	.projects li {
 		width: 48.60%;

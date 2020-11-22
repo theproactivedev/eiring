@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './css/portfolio.css';
@@ -85,6 +85,7 @@ const frontend_proj = [
 ];
 
 const Portfolio = () => {
+  const [isHidden, setMlabWarningHidden] = useState(false)
   const backendProjects = backend_proj.map((proj, index) => {
     const imgSrc = "https://theproactivedev.github.io/eiringonzales/" + proj.image;
     return (
@@ -129,6 +130,11 @@ const Portfolio = () => {
       <section className="portfolio wide-container">
         <section className="page-title">
           <h2>Portfolio</h2>
+        </section>
+
+        <section className={`alert-msg ${!isHidden ? '_show_' : '_hidden_'}`}>
+          <p>These web applications' database are powered by mLab. And since mLab is now part of MongoDB, Inc., these projects might not work anymore. And I'm still in the process of migrating these projects to MongoDB Atlas.</p>
+          <span onClick={() => setMlabWarningHidden(true)}>&times;</span>
         </section>
 
         <section className="dev-projects">
